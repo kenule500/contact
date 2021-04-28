@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "client",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

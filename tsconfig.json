@@ -1,0 +1,63 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@contact/*": [
+        "libs/*"
+      ],
+      "@contact/ionic": [
+        "xplat/ionic/index.ts"
+      ],
+      "@contact/ionic/*": [
+        "xplat/ionic/*"
+      ],
+      "@contact/web": [
+        "xplat/web/index.ts"
+      ],
+      "@contact/web/*": [
+        "xplat/web/*"
+      ],
+      "@contact/entity": [
+        "libs/entity/src"
+      ],
+      "@contact/entity/*": [
+        "libs/entity/src/*"
+      ],
+      "@contact/validation": [
+        "libs/validation/src"
+      ],
+      "@contact/validation/*": [
+        "libs/validation/src/*"
+      ],
+      "@contact/dto": [
+        "libs/dto/src"
+      ],
+      "@contact/dto/*": [
+        "libs/dto/src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "client",
+  "type": "angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "app_id": ""
+}
